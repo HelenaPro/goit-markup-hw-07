@@ -49,15 +49,16 @@
             </button>
         </div>
 
-        <div class="menu-container is-hidden" data-menu id="mobile-menu">
+        <div class="mobile-menu is-hidden" data-mobil>
+            <div class="container mobile-menu-container">
             <button
               type="button"
-              class="mobile-menu-close-btn media-close-menu"
-              data-menu-close>
-              <svg width="8" height="8">
+              class="mobile-menu-close-btn media-close-menu" data-menu-close>
+              <svg class="mobile-close-btn-icon" width="8" height="8">
                 <use href="./images/icons.cvg.svg#icon-close-black"></use>
               </svg>
             </button>
+            <div class="mobile-nav">
             <ul class="mobile-menu-list list">
                 <li class="mobile-menu-nav-items">
                 <a class="mobile-menu-link link mobile-menu-studio" href="./index.html">Studio</a>
@@ -69,45 +70,49 @@
                 <a class="mobile-menu-link link-current link" href="">Contacts</a>
               </li>
             </ul>
-            <ul class="mobile-menu-contacts list">
-              <li class="mobile-menu-contacts-items">
-                <a class="mobile-menu-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-              </li>
-              <li class="mobile-menu-contacts-items">
-                <a class="mobile-menu-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-            </ul>
+            <address class="mobile-contacts">
+                <ul class="mobile-menu-contacts list">
+                    <li class="mobile-menu-contacts-items">
+                        <a class="mobile-menu-cont link tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                    <li class="mobile-menu-contacts-items">
+                        <a class="mobile-menu-cont link mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+            </address>
             <ul class="mobile-menu-soc-cont list">
                 <li class="mobile-menu-soc">
                 <a class="soc-media-link" href="">
-                  <svg class="soc-icon" width="24" height="24">
+                  <svg class="mobile-soc-icon" width="24" height="24">
                     <use href="./images/icons.cvg.svg#icon-instagram"></use>
                   </svg>
                 </a>
                 </li>
                 <li class="mobile-menu-soc">
                 <a class="soc-media-link" href="">
-                  <svg class="soc-icon" width="24" height="24">
+                  <svg class="mobile-soc-icon" width="24" height="24">
                     <use href="./images/icons.cvg.svg#icon-twitter"></use>
                   </svg>
                 </a>
                 </li>
                 <li class="mobile-menu-soc">
                 <a class="soc-media-link" href="">
-                  <svg class="soc-icon" width="24" height="24">
+                  <svg class="mobile-soc-icon" width="24" height="24">
                     <use href="./images/icons.cvg.svg#icon-facebook"></use>
                   </svg>
                 </a>
                 </li>
                 <li class="mobile-menu-soc">
                 <a class="soc-media-link" href="">
-                  <svg class="soc-icon" width="24" height="24">
+                  <svg class="mobile-soc-icon" width="24" height="24">
                     <use href="./images/icons.cvg.svg#icon-linkedin"></use>
                   </svg>
                 </a>
                 </li>
             </ul>
           </div>
+        </div>
+        </div>
     </header>
 
      <main>
@@ -503,6 +508,7 @@
       <script>
         AOS.init();
       </script>
+      <script src="./js/mobile-menu.js"></script>
       <script src="./js/modal.js"></script>
 </body>
 </html>
