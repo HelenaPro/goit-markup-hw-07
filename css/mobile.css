@@ -15,16 +15,16 @@
 
 @media screen and (max-width: 767px) {
     .mobile-menu {
-        position: fixed;
-        min-width: 100%;
-        height: 100%;
-        top: 0;
-        z-index: 1000;
-        background-color: #ffff;
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-        transition: opacity 500ms linear, visbility 500ms linear;
+    position: fixed;
+    min-width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffff;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 500ms linear, visbility 500ms linear;
     }
 
     .is-open.mobile-menu {
@@ -85,7 +85,7 @@
     }
 @media screen and (max-width: 479px) {
     .mobile-menu-cont {
-            font-size: 26px;
+        font-size: 26px;
     }
 }
     .mobile-menu-contacts-items:nth-child(1) {
@@ -140,7 +140,7 @@
     }
 @media screen and (max-width:479px) {
     .mobile-menu-soc-cont {
-            gap: 32px;
+        gap: 32px;
         }
 }
     .soc-media-link {

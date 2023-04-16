@@ -60,6 +60,7 @@
         margin-top: 16px;
     }
 }
+
 .is-hidden.backdrop {
     visibility: hidden;
     opacity: 0;
