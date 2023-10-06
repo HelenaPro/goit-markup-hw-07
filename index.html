@@ -57,6 +57,7 @@
               </svg>
             </button>
             
+            <nav class="mobile-nav">
             <ul class="mobile-menu-list list">
                 <li class="mobile-menu-nav-items">
                 <a class="main-page-mobile link mobile-menu-studio" href="./index.html">Studio</a>
@@ -68,7 +69,9 @@
                 <a class="mobile-menu-link link-current link" href="">Contacts</a>
               </li>
             </ul>
-            <div class="">
+            </nav>
+
+            <div class="mobile-contacts">
                 <ul class="mobile-menu-contacts list">
                     <li class="mobile-menu-contacts-items">
                         <a class="mobile-menu-cont link tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
@@ -77,7 +80,8 @@
                         <a class="mobile-menu-cont link mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                 </ul>
-           
+            </div>
+                       
             <ul class="mobile-menu-soc-cont list">
                 <li class="mobile-menu-soc">
                 <a class="soc-media-link link" href="">
@@ -116,7 +120,7 @@
 
      <main>
         <section class="hero">
-            <div class="conteiner">
+            <div class="container">
                 <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
                 <button class="modal-btn" data-modal-open type="button"> Order Service</button>
             </div>
@@ -246,10 +250,12 @@
         </section>
 
         <section class="work section">
-            <div class="conteiner">
+            <div class="container">
             <h2 class="work-title">What are we doing</h2>
             <ul class="list list-work">
-                <li class="work-picture"> <img src="./images/main/komp.jpg" alt="computer" width="360"> </li>
+                <li class="work-picture">
+                    <img srcset="./images/main/desktop/komp@2x.jpg"
+                    src="./images/main/komp.jpg" alt="computer" width="360"> </li>
                 <li class="work-picture"> <img src="./images/main/tel.jpg" alt="tel" width="360"> </li>
                 <li class="work-picture"> <img src="./images/main/laptop.jpg" alt="laptop" width="360"> </li>
             </ul>
@@ -257,13 +263,13 @@
         </section>
 
         <section class="team">
-            <div class="conteiner">
+            <div class="container">
             <h2 class="team-title">Our Team</h2>
             <ul class="list list-our-team">
                 <li class="menu-team-item">
                     <img class="team-img" srcset="./images/main/mob/mark-mob.jpg"
                     src="./images/main/mob/mark-mob.jpg" alt="Mark Guerrero"  width="264" height="260">
-                    <div class="team-conteiner"><h3 class="suptitle">Mark Guerrero</h3>
+                    <div class="team-container"><h3 class="suptitle">Mark Guerrero</h3>
                         <p class="job-text">Product Designer</p>
                         <ul class="team-soc-list list">
                             <li class="team-soc-item"><a class="team-soc-link link" href="">
@@ -296,7 +302,7 @@
                 <li class="menu-team-item">
                     <img class="team-img" srcset="./image"
                     src="./images/main/tom.jpg" alt="Tom Ford" width="264" height="260">
-                    <div class="team-conteiner"><h3 class="suptitle">Tom Ford</h3>
+                    <div class="team-container"><h3 class="suptitle">Tom Ford</h3>
                         <p class="job-text">Frontend Developer</p>
                         <ul class="team-soc-list list">
                             <li class="team-soc-item"><a class="team-soc-link link" href="">
@@ -329,7 +335,7 @@
                 <li class="menu-team-item">
                     <img class="team-img" srcset="./image"
                     src="./images/main/camila.jpg" alt="Camila Garcia" width="264" height="260">
-                    <div class="team-conteiner"><h3 class="suptitle">Camila Garcia</h3>
+                    <div class="team-container"><h3 class="suptitle">Camila Garcia</h3>
                         <p class="job-text">Marketing</p>
                         <ul class="team-soc-list list">
                             <li class="team-soc-item"><a class="team-soc-link link" href="">
@@ -362,7 +368,7 @@
                 <li class="menu-team-item">
                     <img class="team-img" srcset="./image"
                     src="./images/main/daniel.jpg" alt="Daniel Wilson" width="264" height="260">
-                    <div class="team-conteiner"><h3 class="suptitle">Daniel Wilson</h3>
+                    <div class="team-container"><h3 class="suptitle">Daniel Wilson</h3>
                         <p class="job-text">UI Designer</p>
                         <ul class="team-soc-list list">
                             <li class="team-soc-item"><a class="team-soc-link link" href="">
@@ -397,7 +403,7 @@
         </section>
 
         <section class="costumers">
-            <div class="conteiner">
+            <div class="container">
               <h2 class="costumers-header">Customers</h2>
               <ul class="costumers-list list">
                 <li class="customers-link link">
