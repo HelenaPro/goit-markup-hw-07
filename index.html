@@ -120,7 +120,7 @@
 
      <main>
         <section class="hero">
-            <div class="container">
+            <div class="hero-container">
                 <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
                 <button class="modal-btn" data-modal-open type="button"> Order Service</button>
             </div>
@@ -249,26 +249,13 @@
             </div>
         </section>
 
-        <section class="work section">
-            <div class="container">
-            <h2 class="work-title">What are we doing</h2>
-            <ul class="list list-work">
-                <li class="work-picture">
-                    <img srcset="./images/main/desktop/komp@2x.jpg"
-                    src="./images/main/komp.jpg" alt="computer" width="360"> </li>
-                <li class="work-picture"> <img src="./images/main/tel.jpg" alt="tel" width="360"> </li>
-                <li class="work-picture"> <img src="./images/main/laptop.jpg" alt="laptop" width="360"> </li>
-            </ul>
-            </div>
-        </section>
-
         <section class="team">
             <div class="container">
             <h2 class="team-title">Our Team</h2>
             <ul class="list list-our-team">
                 <li class="menu-team-item">
-                    <img class="team-img" srcset="./images/main/mob/mark-mob.jpg"
-                    src="./images/main/mob/mark-mob.jpg" alt="Mark Guerrero"  width="264" height="260">
+                    <img class="team-img" srcset="./images/main/mark@2x.jpg 2x, ./images/main/mark.jpg 1x"
+                    src="./images/main/mark.jpg" alt="Mark Guerrero"  width="264" height="260">
                     <div class="team-container"><h3 class="suptitle">Mark Guerrero</h3>
                         <p class="job-text">Product Designer</p>
                         <ul class="team-soc-list list">
@@ -300,7 +287,7 @@
                     </div>
                 </li>
                 <li class="menu-team-item">
-                    <img class="team-img" srcset="./image"
+                    <img class="team-img" srcset="./images/main/tom@2x.jpg 2x, ./images/main/tom.jpg 1x"
                     src="./images/main/tom.jpg" alt="Tom Ford" width="264" height="260">
                     <div class="team-container"><h3 class="suptitle">Tom Ford</h3>
                         <p class="job-text">Frontend Developer</p>
@@ -333,7 +320,7 @@
                     </div>
                 </li>
                 <li class="menu-team-item">
-                    <img class="team-img" srcset="./image"
+                    <img class="team-img" srcset="./images/main/camila@2x.jpg 2x, ./images/main/camila.jpg 1x"
                     src="./images/main/camila.jpg" alt="Camila Garcia" width="264" height="260">
                     <div class="team-container"><h3 class="suptitle">Camila Garcia</h3>
                         <p class="job-text">Marketing</p>
@@ -366,7 +353,7 @@
                     </div>
                 </li>
                 <li class="menu-team-item">
-                    <img class="team-img" srcset="./image"
+                    <img class="team-img" srcset="./images/main/daniel@2x.jpg 2x, ./images/main/daniel.jpg 1x"
                     src="./images/main/daniel.jpg" alt="Daniel Wilson" width="264" height="260">
                     <div class="team-container"><h3 class="suptitle">Daniel Wilson</h3>
                         <p class="job-text">UI Designer</p>
@@ -402,55 +389,158 @@
             </div>
         </section>
 
-        <section class="costumers">
-            <div class="container">
-              <h2 class="costumers-header">Customers</h2>
-              <ul class="costumers-list list">
-                <li class="customers-link link">
-                  <a class="customers-link-tag" href="">
-                    <svg width="104" height="56" class="costummers-items">
-                      <use href="./images/icons.cvg.svg#icon-Logo-1"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="customers-link link">
-                  <a class="customers-link-tag" href="">
-                    <svg width="104" height="56" class="costummers-items">
-                      <use href="./images/icons.cvg.svg#icon-Logo-2"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="customers-link link">
-                  <a class="customers-link-tag" href="">
-                    <svg width="104" height="56" class="costummers-items">
-                      <use href="./images/icons.cvg.svg#icon-Logo-3"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="customers-link link">
-                  <a class="customers-link-tag" href="">
-                    <svg width="104" height="56" class="costummers-items">
-                      <use href="./images/icons.cvg.svg#icon-Logo-4"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="customers-link link">
-                  <a class="customers-link-tag" href="">
-                    <svg width="104" height="56" class="costummers-items">
-                      <use href="./images/icons.cvg.svg#icon-Logo-5"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="customers-link link">
-                  <a class="customers-link-tag" href="">
-                    <svg width="104" height="56" class="costummers-items">
-                      <use href="./images/icons.cvg.svg#icon-Logo-6"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+        <section class="section-portfolio">
+            <div class="container port-btn-cont">
+            <h1 hidden>Gallery</h1>
+                <ul class="list list-portfolio">
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/diagram.jpg" alt="bankapp" width="360" height="300">
+                        <p class="portfolio-cover-text">
+                            14 Stylish and User-Friendly App Design Concepts · Task
+                            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                            App · Cloud Storage App
+                          </p>
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Banking App Interface Concept</h2>
+                        <p class="portfolio-text">App</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/payment.jpg" alt="cashless" width="360" height="300">
+                        <p class="portfolio-cover-text">
+                                14 Stylish and User-Friendly App Design Concepts · Task
+                                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                                App · Cloud Storage App
+                              </p>
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Cashless Payment</h2>
+                        <p class="portfolio-text">Marketing</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/meditation.jpg" alt="meditationapp" width="360" height="300">
+                        <p class="portfolio-cover-text">
+                            14 Stylish and User-Friendly App Design Concepts · Task
+                            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                            App · Cloud Storage App
+                          </p>
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Meditation App</h2>
+                        <p class="portfolio-text">App</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/taxi.jpg" alt="taxiservice" width="360" height="300">
+                            <p class="portfolio-cover-text">
+                                14 Stylish and User-Friendly App Design Concepts · Task
+                                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                                App · Cloud Storage App
+                              </p>
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Taxi Service</h2>
+                        <p class="portfolio-text">Marketing</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/screen.jpg" alt="screenillustrations" width="360" height="300">
+                            <p class="portfolio-cover-text">
+                                14 Stylish and User-Friendly App Design Concepts · Task
+                                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                                App · Cloud Storage App
+                              </p>
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Screen Illustrations</h2>
+                        <p class="portfolio-text">Design</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/online.jpg" alt="onlinecourses" width="360" height="300">
+                            <p class="portfolio-cover-text">
+                                14 Stylish and User-Friendly App Design Concepts · Task
+                                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                                App · Cloud Storage App
+                              </p>
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Online Courses</h2>
+                        <p class="portfolio-text">Marketing</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/instagram.jpg" alt="instagram" width="360" height="300">
+                        <p class="portfolio-cover-text">
+                                14 Stylish and User-Friendly App Design Concepts · Task
+                                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                                App · Cloud Storage App
+                              </p>
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Instagram Stories Concept</h2>
+                        <p class="portfolio-text">Design</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/organic.jpg" alt="organicfood" width="360" height="300">
+                        <p class="portfolio-cover-text">
+                            14 Stylish and User-Friendly App Design Concepts · Task
+                            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                            App · Cloud Storage App
+                          </p>                         
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Organic Food</h2>
+                        <p class="portfolio-text">Web Site</p>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="portfolio-item">
+                    <a class="portfolio-link link" href="/">
+                        <div class="cover-txt-wrap">
+                        <img src="./images/portfolio/freshcoffee.jpg" alt="freshcoffee" width="360" height="300">
+                        <p class="portfolio-cover-text">
+                            14 Stylish and User-Friendly App Design Concepts · Task
+                            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                            App · Cloud Storage App
+                          </p>
+                        </div>
+                        <div class="portfolio-text-img">
+                        <h2 class="portfolio-title">Fresh Coffee</h2>
+                        <p class="portfolio-text">Web Site</p>
+                        </div>
+                    </a>
+                    </li>
+                </ul>
             </div>
-          </section>
+        </section>
+
     </main>
 
     <footer class="footer">
